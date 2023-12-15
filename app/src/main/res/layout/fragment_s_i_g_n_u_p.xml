@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SIGNUP"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/nameValue"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+
+        android:textSize="18sp"
+        android:layout_marginBottom="26dp"
+        android:layout_marginTop="18dp"
+        android:hint="@string/enterName"
+        android:textColorHint="#AD2B7A0B"
+        app:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
+        />
+
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+
+        android:textSize="18sp"
+        android:layout_marginBottom="26dp"
+        android:hint="@string/email"
+        android:textColorHint="#AD2B7A0B"
+        app:fontFamily="sans-serif-condensed-medium"
+
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+
+        android:textSize="18sp"
+        android:layout_marginBottom="26dp"
+        android:hint="@string/password"
+        android:textColorHint="#AD2B7A0B"
+        app:fontFamily="sans-serif-condensed-medium"
+
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/contactNo"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+
+        android:textSize="18sp"
+        android:layout_marginBottom="26dp"
+        android:hint="@string/contactNo"
+        android:textColorHint="#AD2B7A0B"
+        app:fontFamily="sans-serif-condensed-medium"
+
+        android:inputType="phone"
+        />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/buttonStyle"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="36dp"
+        android:text="@string/signUp" />
+
+
+
+</LinearLayout>
